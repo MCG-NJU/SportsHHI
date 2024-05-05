@@ -1,0 +1,4 @@
+debug_*.py
+/**/__pycache__
+*.log
+*_output.csv
