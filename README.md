@@ -4,7 +4,7 @@ This is the official repository of the CVPR 2024 paper [**SportsHHI: A Dataset f
 
 ## Download
 
-COMING SOON
+[SportsHHI Dataset](https://huggingface.co/datasets/MCG-NJU/SportsHHI)
 
 ## Baseline Method & Evaluation
 
@@ -29,10 +29,6 @@ We provide the training and testing code for our baseline method. Please first s
 For training, run ```bash train.sh $CONFIG $GPU_NUM```. ```$CONFIG``` should be a configuration file in ```configs``` folder. ```$GPU_NUM``` should be the number of gpus for training.
 
 For testing, run ```bash test.sh $CONFIG $CHECKPOINT $GPU_NUM```. ```$CONFIG``` should be a configuration file in ```configs``` folder. ```$CHECKPOINT``` is the checkpoint to test. ```$GPU_NUM``` should be the number of gpus for training.
-
-### Evaluation Tool
-
-WILL BE UPDATED TOGETHER WITH "DOWNLOAD".
 
 ## Acknowledgments
 
